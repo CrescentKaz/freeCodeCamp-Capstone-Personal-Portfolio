@@ -1,0 +1,75 @@
+:root {
+  --periwinkle: #ccccff;
+  --green-gray: #aabbaa;
+  --purple-blue: #294285;
+}
+
+@media (min-width: 75em) {
+  html {
+    font-size: 150%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  height: 5%;
+  background-color: var(--green-gray);
+  width: 100%;
+  margin-top: 5;
+  z-index: 1;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  color: purple;
+}
+
+ul li {
+  padding: 10px 15px 0 15px;
+  color: red;
+  text-decoration: none;
+}
+
+#welcome-section {
+  height: 100vh;
+  position: relative;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--periwinkle);;
+}
+
+#projects {
+  position: relative;
+  background-color: var(--periwinkle);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#socials {
+  background-color: var(--green-gray);
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: var(--purple-blue);
+}
